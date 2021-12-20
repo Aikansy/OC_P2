@@ -1,0 +1,343 @@
+@media screen and (max-width: 768px) {    
+
+
+    /* Booki stylesheet @media screen max-width: 768px
+    ========================================================================== */
+
+
+    /* body Common elements */
+
+    p {
+        font-size: 24px;
+    }
+
+    h1 { /* Main title */
+        font-size: 36px;
+    }
+
+    h2 { /* Sections titles */
+        font-size: 33px;
+        font-weight: bolder;
+    }
+
+    h3 { /* Card titles */
+        font-size: 26px;
+    }
+
+    h4 { /* Filters title, Footer titles */
+        font-size: 26px;
+    }
+
+    .container_title { /* common second_section & third_section titles */
+        height: 60px;
+        display: flex;
+        align-items: center;
+        margin: 35px 30px 0px 30px;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+
+    /* Header
+    ========================================================================== */
+
+
+    header {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 195px;
+    }
+        
+    /* Booki Logo */
+
+    header > div {
+        height: 65%;
+    }
+
+    header img {
+        height: 70px;
+        margin-left: 0px;
+    }
+
+    /* Nav */
+
+    header nav {
+        height: 35%;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    header li::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        border-bottom: 4px solid #F2F2F2;
+    }
+        
+    /* Transition Nav */
+
+    header li::after {
+        top: 100%;
+        border-top: 4px solid #0065fc;
+    }
+
+
+    /* 1st Section
+    ========================================================================== */
+
+
+    #first_section {
+        margin: 50px 30px 0px 30px;
+    }
+
+    /* Research Form */
+
+    #first_section form {
+        justify-content: space-between;
+        height: 80px;
+        width: 100%;
+        margin-top: 45px;
+        border-radius: 25px;
+    }
+    
+    #first_section #research label i {
+        height: 80px;
+        width: 80px;
+        font-size: 30px;
+        border-radius: 25px 0 0 25px;
+    }
+
+    #first_section input[type="search"] {
+        width: 60%;
+        font-size: 26px;
+        padding-left: 6px;
+    }
+
+    #first_section input[type="submit"] {
+        display: none;
+    }
+
+    #first_section button {
+        display: inline-block;
+        width: 80px;
+        font-size: 25px;
+        border-radius: 25px;
+        background-color: #0065fc;
+        color: #fff;
+        border: none;
+        transition: .4s;
+        cursor: pointer;
+    }
+
+    /* Filters */
+
+    #filters_container {
+        flex-direction: column;
+        margin: 40px 0px 0px 0px;
+    }
+
+    #filters {
+        margin-top: 10px;
+    }
+
+    #filters label {
+        margin: 0px 18px 19px 0px;
+    }
+
+    #filters .slider {
+        height: 76px;
+        padding-right: 22px;
+        border-radius: 50px;
+        font-size: 24px;
+        border: 2px solid #d9d9d9;
+    }
+
+    .slider i {
+        height: 76px;
+        width: 76px;
+        font-size: 26px;
+        border-radius: 50px;
+    }
+
+    /* Information */
+
+    #information_container {
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    #information_container i {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+        font-weight: 800;
+        margin: -9px 15px 0px 0px;
+    }
+
+    #information_container p {
+        width: 88%;
+        font-size: 23px;
+    }
+
+    /* 2nd Section
+    ========================================================================== */
+
+
+    #second_section {
+        flex-direction: column-reverse;
+        margin: 55px 0px 0px 0px;
+        width: 100%;
+    }
+
+    /* Popular */
+
+    #popular_container {
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+        border-radius: 0px;
+    }
+
+    #pop_icon {
+        font-size: 30px;
+    }
+    
+    #popular_cards_container {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 40px;
+    }
+        
+    .pop_card {
+        height: 220px;
+        width: 90%;
+        border: 8px solid #fff;
+        margin-bottom: 14px;
+    }
+
+    /* Accommodation */
+
+    #accommodation_container {
+        border-radius: 0px;
+        background-color: unset;
+        padding: 0px 10px 0px 10px;
+        width: 100%;
+    }
+
+    #accommodation_cards_container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .acco_card {
+        height: 300px;
+        width: 93%;
+        border: 8px solid #fff;
+        margin-bottom: 14px;
+    }
+
+    #accommodation_container input[type="submit"] {
+        margin: 20px 0px 0px 35px;
+        font-size: 28px;
+    }
+
+    /* Common elements */
+
+    #second_section p {
+        font-size: 18px;
+    }
+
+    #second_section span {
+        font-size: 18px;
+    }
+
+    
+    /* 3nd Section
+    ========================================================================== */
+
+
+    #third_section {
+        margin: 45px 0px 0px 0px;
+    }
+
+    #third_section .container_title {
+        margin: 0px 0px 0px 30px;
+    }
+
+    #activities_container {
+        margin-top: 40px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .two_cards_container {
+        height: 640px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .first_card, 
+    .second_card, 
+    .third_card, 
+    .fourth_card, 
+    .fifth_card, 
+    .sixth_card {
+        height: 290px;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .first_card_img, 
+    .second_card_img, 
+    .third_card_img, 
+    .fourth_card_img, 
+    .fifth_card_img, 
+    .sixth_card_img {
+        height: 70%;
+    }
+
+    .first_card_body, 
+    .second_card_body, 
+    .third_card_body, 
+    .fourth_card_body, 
+    .fifth_card_body, 
+    .sixth_card_body {
+        height: 30%;
+    }
+
+
+/* Footer
+========================================================================== */
+
+
+    footer {
+        height: 730px;
+        flex-direction: column;
+        margin-top: 40px;
+        padding: 68px 0px 52px 50px;
+        justify-content: space-between;
+    }
+
+    footer div {
+        width: 100%;
+    }
+
+    footer h4 {
+        margin-bottom: 30px;
+        font-size: 27px;
+    }
+
+    footer li {
+        margin-bottom: 18px;
+    }
+
+    footer p {
+        font-size: 24px;
+    }
+}

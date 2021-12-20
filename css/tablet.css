@@ -1,0 +1,84 @@
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+
+    /* 2nd Section
+    ========================================================================== */
+
+
+    #second_section {
+        flex-direction: column-reverse;
+    }
+
+    /* Popular */
+
+    #popular_container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #popular_cards_container {
+        justify-content: space-between;
+    }
+
+    .pop_card {
+        width: 92%;
+    }
+
+    /* Accommodation */
+
+    #accommodation_container {
+        width: 100%;
+    }
+
+    .acco_card {
+        height: 400px;
+        width: 28%;
+    }
+
+    #accommodation_container input[type="submit"] {
+        margin: 0px 0px 20px 40px;
+    }
+
+    /* 3nd Section
+    ========================================================================== */
+
+    #third_section {
+        margin: 25px 15px 0px 15px;
+    }
+
+    #activities_container {
+        justify-content: space-evenly;
+    }
+
+    #third_section .container_title {
+        margin: 0px 0px 0px 35px;
+    }
+
+    /* 1st & 4th cards */
+
+    .first_card, .fourth_card {
+        width: 44%;
+        margin-bottom: 30px;
+    }
+
+    /* 2nd, 3rd, 5th & 6th cards container */
+
+    .two_cards_container {
+        width: 44%;
+        margin-bottom: 30px;
+    }
+
+
+    /* Footer
+    ========================================================================== */
+
+
+    footer {
+        margin-top: 30px;
+        padding: 50px 0px 50px 80px;
+    }
+
+    footer div {
+        width: 28%;
+    }
+}
